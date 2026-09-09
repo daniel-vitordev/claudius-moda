@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    
+    <title>Claudius Moda</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header id="inicio">
+
+    <div class="banner">
+
+        <img src="img/logo.png" alt="Logo da Claudius Moda">
+
+        <p class="slogan">A LOJA DO HOMEM MODERNO</p>
+
+    </div>
+
+    <nav class="menu-desktop">
+
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#categorias">Categorias</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+
+</nav>
+
+
+<details class="menu-mobile">
+
+    <summary>
+        <span>☰</span> Menu
+    </summary>
+
+    <div class="menu-links">
+
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+
+    </div>
+
+</details>
+
+</header>
+
+<!-- ===========================
+            HERO
+=========================== -->
+
+<section class="hero">
+
+    <div class="carousel">
+
+        <!-- Slides -->
+
+        <div class="slide ativo">
+            <img src="img/banners/banner1.png"
+                 alt="Nova coleção da Claudius Moda">
+        </div>
+
+        <div class="slide">
+            <img src="img/banners/banner2.png"
+                 alt="Moda social masculina">
+        </div>
+
+        <div class="slide">
+            <img src="img/banners/banner3.png"
+                 alt="Calçados masculinos">
+        </div>
+
+        <div class="slide">
+            <img src="img/banners/banner4.png"
+                 alt="Acessórios masculinos">
+        </div>
+
+        <!-- Botões de navegação -->
+
+        <button class="botao-carousel anterior"
+                type="button"
+                aria-label="Voltar para o banner anterior">
+            &#10094;
+        </button>
+
+        <button class="botao-carousel proximo"
+                type="button"
+                aria-label="Avançar para o próximo banner">
+            &#10095;
+        </button>
+
+        <!-- Indicadores -->
+
+        <div class="indicadores">
+
+            <button class="indicador ativo"
+                    type="button"
+                    aria-label="Mostrar o primeiro banner">
+            </button>
+
+            <button class="indicador"
+                    type="button"
+                    aria-label="Mostrar o segundo banner">
+            </button>
+
+            <button class="indicador"
+                    type="button"
+                    aria-label="Mostrar o terceiro banner">
+            </button>
+
+            <button class="indicador"
+                    type="button"
+                    aria-label="Mostrar o quarto banner">
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================
+          CATEGORIAS
+=========================== -->
+
+<section class="categorias" id="categorias">
+
+    <div class="categorias-container">
+
+        <h2>Nossas Categorias</h2>
+
+        <p class="categorias-subtitulo">
+            Encontre o estilo ideal para cada ocasião
+        </p>
+
+        <div class="categorias-grid">
+
+            <article class="categoria-card">
+
+                <img
+                    src="img/categorias/camisas.png"
+                    alt="Camisas masculinas"
+                >
+
+                <div class="categoria-conteudo">
+
+                    <a href=href="#" class="abrir-modelos" data-categoria="Camisas">
+                        Ver produtos
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="categoria-card">
+
+                <img
+                    src="img/categorias/bermudas.png"
+                    alt="Bermudas masculinas"
+                >
+
+                <div class="categoria-conteudo">
+
+                    <a href="#" class="abrir-modelos" data-categoria="Bermudas">
+                        Ver produtos
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="categoria-card">
+
+                <img
+                    src="img/categorias/calcas.png"
+                    alt="Calças masculinas"
+                >
+
+                <div class="categoria-conteudo">
+
+                    <a href="#" class="abrir-modelos" data-categoria="Calças">
+                        Ver produtos
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="categoria-card">
+
+                <img
+                    src="img/categorias/inverno.png"
+                    alt="Roupas masculinas de inverno"
+                >
+
+                <div class="categoria-conteudo">
+
+                    <a href="href="#" class="abrir-modelos" data-categoria="Inverno">
+                        Ver produtos
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="categoria-card">
+
+                <img
+                    src="img/categorias/calcados.png"
+                    alt="Calçados masculinos"
+                >
+
+                <div class="categoria-conteudo">
+
+                    <a href="#" class="abrir-modelos" data-categoria="Calçados">
+                        Ver produtos
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="categoria-card">
+
+                <img
+                    src="img/categorias/acessorios.png"
+                    alt="Acessórios masculinos"
+                >
+
+                <div class="categoria-conteudo">
+
+                    <a href="#" class="abrir-modelos" data-categoria="Acessórios">
+                        Ver produtos
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================
+       PRODUTOS EM DESTAQUE
+=========================== -->
+
+<section class="produtos" id="produtos">
+
+    <div class="produtos-container">
+
+        <h2>Produtos em Destaque</h2>
+
+        <p class="produtos-subtitulo">
+            Confira algumas opções disponíveis na Claudius Moda
+        </p>
+
+        <div class="produtos-grid">
+
+            <article class="produto-card">
+
+                <img
+                    src="img/produtos/produto1.png"
+                    alt="Produto masculino em destaque"
+                >
+
+                <div class="produto-info">
+
+                    <h3>Short Destroy</h3>
+
+                    <p class="produto-preco">
+                        R$ 69,00
+                    </p>
+
+                    <a  href="https://wa.me/5581996890010?text=Ol%C3%A1!%20Vi%20o%20Short%20Destroy%20no%20site%20da%20Claudius%20Moda%20e%20gostaria%20de%20saber%20os%20tamanhos%20e%20cores%20dispon%C3%ADveis."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="botao-produto">
+
+                        Pedir pelo WhatsApp
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="produto-card">
+
+                <img
+                    src="img/produtos/produto2.png"
+                    alt="Produto masculino em destaque"
+                >
+
+                <div class="produto-info">
+
+                    <h3>Bobojaco</h3>
+
+                    <p class="produto-preco">
+                        R$ 149,00
+                    </p>
+
+                    <a  href="https://wa.me/5581996890010?text=Ol%C3%A1!%20Vi%20o%20Bobojaco%20no%20site%20da%20Claudius%20Moda%20e%20gostaria%20de%20saber%20os%20tamanhos%20e%20cores%20dispon%C3%ADveis."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="botao-produto">
+
+                        Pedir pelo WhatsApp
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="produto-card">
+
+                <img
+                    src="img/produtos/produto3.png"
+                    alt="Produto masculino em destaque"
+                >
+
+                <div class="produto-info">
+
+                    <h3>Camisa Polo Retrô</h3>
+
+                    <p class="produto-preco">
+                        R$ 95,00
+                    </p>
+
+                    <a  href="https://wa.me/5581996890010?text=Ol%C3%A1!%20Vi%20a%20Camisa%20Polo%20Retr%C3%B4%20no%20site%20da%20Claudius%20Moda%20e%20gostaria%20de%20saber%20os%20tamanhos%20e%20cores%20dispon%C3%ADveis."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="botao-produto">
+
+                        Pedir pelo WhatsApp
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="produto-card">
+
+                <img
+                    src="img/produtos/produto4.jpg"
+                    alt="Produto masculino em destaque"
+                >
+
+                <div class="produto-info">
+
+                    <h3>Tênis Stones Ollie</h3>
+
+                    <p class="produto-preco">
+                        R$ 165,00
+                    </p>
+
+                    <a  href="https://wa.me/5581996890010?text=Ol%C3%A1!%20Vi%20o%20T%C3%AAnis%20Ollie%20no%20site%20da%20Claudius%20Moda%20e%20gostaria%20de%20saber%20os%20tamanhos%20e%20cores%20dispon%C3%ADveis."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="botao-produto">
+
+                        Pedir pelo WhatsApp
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================
+            SOBRE
+=========================== -->
+
+<section class="sobre" id="sobre">
+
+    <div class="sobre-container">
+
+        <div class="sobre-texto">
+
+            <h2>Sobre a Claudius Moda</h2>
+
+            <p>
+                A Claudius Moda é uma loja de moda masculina localizada em
+                Bonito - PE, com opções para diferentes estilos e ocasiões.
+            </p>
+
+            <p>
+                Trabalhamos com roupas, calçados e acessórios masculinos,
+                buscando oferecer variedade, qualidade e bom atendimento
+                para nossos clientes.
+            </p>
+
+            <p>
+                Além do atendimento na loja física, também enviamos pedidos
+                para clientes de todo o Brasil. Para consultar disponibilidade,
+                tamanhos ou realizar um pedido, entre em contato conosco pelo
+                WhatsApp.
+            </p>
+
+        </div>
+
+        <div class="sobre-destaques">
+
+            <div class="destaque">
+                <span>📍</span>
+                <h3>Loja Física</h3>
+                <p>Bonito - Pernambuco</p>
+            </div>
+
+            <div class="destaque">
+                <span>🚚</span>
+                <h3>Envios</h3>
+                <p>Para todo o Brasil</p>
+            </div>
+
+            <div class="destaque">
+                <span>💬</span>
+                <h3>Atendimento</h3>
+                <p>Presencial e WhatsApp</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===========================
+        CONTATO E LOCALIZAÇÃO
+=========================== -->
+
+<section class="contato" id="contato">
+
+    <div class="contato-container">
+
+        <div class="contato-info">
+
+            <h2>Entre em Contato</h2>
+
+            <p>
+                Fale com a Claudius Moda para consultar produtos,
+                tamanhos, disponibilidade e realizar pedidos.
+            </p>
+
+
+            <!-- ===========================
+                    WHATSAPP
+            =========================== -->
+
+            <div class="contato-item contato-card">
+
+                <div class="contato-card-topo">
+
+                    <div class="contato-icone">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>WhatsApp</h3>
+
+                        <p>
+                            Consulte produtos, tamanhos e faça seu pedido.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <a  href="https://wa.me/5581996890010?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Claudius%20Moda%20e%20gostaria%20de%20conhecer%20os%20produtos%20dispon%C3%ADveis."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contato-link"
+                    >
+
+                    Falar pelo WhatsApp
+
+                    <span>→</span>
+
+                </a>
+
+            </div>
+
+
+            <!-- ===========================
+                    INSTAGRAM
+            =========================== -->
+
+            <div class="contato-item contato-card">
+
+                <div class="contato-card-topo">
+
+                    <div class="contato-icone">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>Instagram</h3>
+
+                        <p>
+                            Acompanhe nossas novidades e lançamentos.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <a
+                    href="https://www.instagram.com/claudiusmoda132/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contato-link"
+                >
+
+                    @claudiusmoda132
+
+                    <span>→</span>
+
+                </a>
+
+            </div>
+
+
+            <!-- ===========================
+                    ENDEREÇO
+            =========================== -->
+
+            <div class="contato-item contato-card">
+
+                <div class="contato-card-topo">
+
+                    <div class="contato-icone contato-localizacao">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>Endereço</h3>
+
+                        <p>
+                            Visite nossa loja física.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="contato-endereco">
+
+                    Praça da Bandeira, 23 - Centro<br>
+                    Bonito - PE
+
+                </div>
+
+                <a
+                    href="https://www.google.com/maps/place/Claudius+Moda+-+Roupas+Masculinas+em+Bonito%2FPE/@-8.4703148,-35.7331475,17z/data=!3m1!4b1!4m6!3m5!1s0x7aa1129b6c8ade9:0xb67ff1f1f055ec90!8m2!3d-8.4703148!4d-35.7305672!16s%2Fg%2F11h7nbhxg9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contato-link"
+                >
+
+                    Ver localização no mapa
+
+                    <span>→</span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- ===========================
+                    MAPA
+        =========================== -->
+
+        <div class="mapa">
+
+            <iframe
+                src="https://www.google.com/maps?q=Praça%20da%20Bandeira%2023%20Bonito%20PE&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Localização da Claudius Moda"
+            >
+            </iframe>
+
+            <a
+                href="https://www.google.com/maps/place/Claudius+Moda+-+Roupas+Masculinas+em+Bonito%2FPE/@-8.4703148,-35.7331475,17z/data=!3m1!4b1!4m6!3m5!1s0x7aa1129b6c8ade9:0xb67ff1f1f055ec90!8m2!3d-8.4703148!4d-35.7305672!16s%2Fg%2F11h7nbhxg9"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mapa-link"
+                aria-label="Abrir localização da Claudius Moda no Google Maps"
+            >
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===========================
+            RODAPÉ
+=========================== -->
+
+<footer class="rodape">
+
+    <div class="rodape-container">
+
+        <div class="rodape-marca">
+
+            <img src="img/logo.png" alt="Logo da Claudius Moda">
+
+            <p>
+                A loja do homem moderno.
+            </p>
+
+        </div>
+
+        <div class="rodape-links">
+
+            <h3>Navegação</h3>
+
+            <a href="#inicio">Início</a>
+            <a href="#categorias">Categorias</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+
+        </div>
+
+        <div class="rodape-contato">
+
+            <h3>Contato</h3>
+
+            <p>
+                Praça da Bandeira, 23 - Centro<br>
+                Bonito - PE
+            </p>
+
+            <a
+                href="https://www.instagram.com/claudiusmoda132/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Instagram
+            </a>
+
+            <a  href="https://wa.me/5581996890010?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Claudius%20Moda%20e%20gostaria%20de%20conhecer%20os%20produtos%20dispon%C3%ADveis."
+                target="_blank">
+                WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="rodape-final">
+
+        <p>
+            © 2026 Claudius Moda. Todos os direitos reservados.
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- ===========================
+     MODAL DE MODELOS
+=========================== -->
+
+<div class="modal-modelos" id="modalModelos">
+
+    <div class="modal-conteudo">
+
+        <button
+            class="modal-fechar"
+            id="fecharModal"
+            aria-label="Fechar"
+        >
+            &times;
+        </button>
+
+        <h2 id="modalTitulo">
+            Escolha o modelo
+        </h2>
+
+        <p id="modalSubtitulo">
+            Selecione uma opção para continuar pelo WhatsApp.
+        </p>
+
+        <div
+            class="modelos-lista"
+            id="modelosLista"
+        >
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
