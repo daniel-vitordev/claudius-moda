@@ -1497,11 +1497,9 @@ nav a:hover{
 
     .carousel {
 
-        width: 94%;
-
-        aspect-ratio: 4 / 3;
-
-        border-radius: 10px;
+        height: 430px;
+        
+        aspect-ratio: auto;
 
     }
 
@@ -1511,7 +1509,7 @@ nav a:hover{
 
         height: 100%;
 
-        object-fit: contain;
+        object-fit: cover;
 
     }
 
