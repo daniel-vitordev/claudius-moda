@@ -1490,75 +1490,49 @@ nav a:hover{
 @media (max-width: 768px) {
 
     .hero {
-
         padding: 20px 0;
-
     }
 
     .carousel {
-
-        height: 430px;
-        
-        aspect-ratio: auto;
-
+        height: auto;
+        aspect-ratio: 16 / 9;
     }
 
     .slide img {
-
         width: 100%;
-
         height: 100%;
-
-        object-fit: cover;
-
+        object-fit: contain;
     }
 
     .botao-carousel {
-
         width: 38px;
-
         height: 38px;
-
         font-size: 20px;
-
     }
 
     .anterior {
-
         left: 10px;
-
     }
 
     .proximo {
-
         right: 10px;
-
     }
 
     .indicadores {
-
         bottom: 10px;
-
         gap: 8px;
-
     }
 
     .indicador {
-
         width: 10px;
-
         height: 10px;
-
     }
 
     .indicador.ativo {
-
         width: 24px;
-
     }
 
 }
-
 /* ===================================
     RESPONSIVIDADE - CATEGORIAS
 =================================== */
