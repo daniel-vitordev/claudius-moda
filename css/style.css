@@ -1494,14 +1494,8 @@ nav a:hover{
     }
 
     .carousel {
-        height: auto;
-        aspect-ratio: 16 / 9;
-    }
-
-    .slide img {
         width: 100%;
-        height: 100%;
-        object-fit: contain;
+        aspect-ratio: 16 / 9;
     }
 
     .botao-carousel {
